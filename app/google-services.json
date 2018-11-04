@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "15698138268",
+    "firebase_url": "https://fashionsme-c482f.firebaseio.com",
+    "project_id": "fashionsme-c482f",
+    "storage_bucket": "fashionsme-c482f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15698138268:android:909af4754bc5d200",
+        "android_client_info": {
+          "package_name": "example.com.fashionsme.fashionsme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15698138268-vfj13fbfuibva994n2nn21kfnhhu8bvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.com.fashionsme.fashionsme",
+            "certificate_hash": "27d3aca778d22672dfa71ed6da316ed8e1cc4fb7"
+          }
+        },
+        {
+          "client_id": "15698138268-3ehm4h4i61ijpkbkmviik1faln3pj6sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkZ66bp2KU258RipjxLBVDIjiukFhQgds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15698138268-3ehm4h4i61ijpkbkmviik1faln3pj6sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

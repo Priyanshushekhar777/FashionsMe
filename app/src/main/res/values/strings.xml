@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FashionsMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_click_post">ClickPostActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="drawer_open">MainActivity</string>
+    <string name="drawer_close">MainActivity</string>
+</resources>

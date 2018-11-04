@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".SetupActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:background="@drawable/profile_icon"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/setup_full_name"
+        android:layout_width="274dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp"
+        android:drawableLeft="@drawable/username"
+        android:text="Name" />
+
+
+    <TextView
+        android:id="@+id/setup_username"
+        android:layout_width="274dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="206dp"
+        android:drawableLeft="@drawable/username"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/setup_password"
+        android:layout_width="272dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:drawableLeft="@drawable/password"
+        android:text="password" />
+
+    <TextView
+        android:id="@+id/setup_country"
+        android:layout_width="276dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:drawableLeft="@drawable/country"
+        android:text="Country" />
+
+    <Button
+        android:id="@+id/setup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp"
+        android:layout_marginStart="120dp"
+        android:drawableEnd="@drawable/button"
+        android:paddingTop="10dp"
+        android:text="Save" />
+
+</RelativeLayout>
